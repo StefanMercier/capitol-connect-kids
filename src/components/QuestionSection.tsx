@@ -27,6 +27,14 @@ export const QuestionSection = ({
         <p className="text-gray-600 leading-relaxed">{description}</p>
       </div>
       
+      {/* Column Headers */}
+      <div className="bg-gray-50 rounded-lg p-4 border">
+        <div className="flex items-center justify-between">
+          <span className="text-sm font-medium text-gray-700">Questions</span>
+          <span className="text-sm font-medium text-gray-700 mr-2">Notes</span>
+        </div>
+      </div>
+      
       <div className="space-y-3">
         {questions.map((question, index) => (
           <QuestionCard

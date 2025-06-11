@@ -85,7 +85,7 @@ const Index = () => {
         <Tabs defaultValue="representatives" className="w-full">
           <TabsList className="grid w-full grid-cols-2 mb-6">
             <TabsTrigger value="representatives" className="flex flex-col gap-1">
-              <span>Representatives</span>
+              <span>Senators/Representatives</span>
               <span className="text-xs opacity-70">{representativeProgress}/{representativeQuestions.length}</span>
             </TabsTrigger>
             <TabsTrigger value="staff" className="flex flex-col gap-1">
@@ -101,7 +101,7 @@ const Index = () => {
               label="Questions Asked"
             />
             <QuestionSection
-              title="Questions for Your Representative or Senator"
+              title="Questions for Your Senators/Representatives"
               description="Take advantage of this opportunity to learn about those who dedicate themselves to public service. Keep questions focused on learning about the job rather than political issues."
               questions={representativeQuestions}
               answeredQuestions={representativeAnswered}

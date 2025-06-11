@@ -3,8 +3,16 @@ import { Calendar, MapPin } from "lucide-react";
 
 export const Header = () => {
   return (
-    <div className="bg-blue-600 text-white p-6 shadow-lg">
-      <div className="container mx-auto">
+    <div 
+      className="bg-blue-600 text-white p-6 shadow-lg relative overflow-hidden"
+      style={{
+        backgroundImage: `linear-gradient(rgba(37, 99, 235, 0.8), rgba(37, 99, 235, 0.8)), url('/lovable-uploads/b7903a09-c94f-41a2-9545-787271cb9fd1.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
+      <div className="container mx-auto relative z-10">
         <h1 className="text-2xl font-bold mb-2">Capitol Hill Visit Checklist</h1>
         <p className="text-blue-100 mb-4">Your guide to meeting elected officials in Washington, D.C.</p>
         
