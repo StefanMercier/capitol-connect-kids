@@ -40,7 +40,7 @@ export const QuestionCard = ({
           <div className="flex-1 min-w-0">
             <label
               htmlFor={`question-${index}`}
-              className={`text-sm leading-relaxed cursor-pointer block ${
+              className={`text-base leading-relaxed cursor-pointer block ${
                 isAnswered 
                   ? 'text-green-800 line-through opacity-75' 
                   : 'text-gray-900'
