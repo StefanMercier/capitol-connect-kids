@@ -13,8 +13,24 @@ export const Header = () => {
       }}
     >
       <div className="container mx-auto relative z-10">
-        <h1 className="text-2xl font-bold mb-2">Capitol Hill Visit Checklist</h1>
-        <p className="text-blue-100 mb-4">Your guide to meeting elected officials in Washington, D.C.</p>
+        <div className="flex justify-between items-start mb-2">
+          <div className="flex-1">
+            <h1 className="text-2xl font-bold mb-2">Capitol Hill Visit Checklist</h1>
+            <p className="text-blue-100 mb-4">Your guide to meeting elected officials in Washington, D.C.</p>
+          </div>
+          <a 
+            href="https://globaleducationaltours.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex-shrink-0 ml-4"
+          >
+            <img 
+              src="/lovable-uploads/5256403c-3120-4462-95e6-cc1f28d44d18.png" 
+              alt="Global Educational Tours"
+              className="h-12 w-auto"
+            />
+          </a>
+        </div>
         
         <div className="flex items-center gap-4 text-sm text-blue-100">
           <div className="flex items-center gap-1">
